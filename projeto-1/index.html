@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Primeiros Passos</title>
+</head>
+<body>
+
+    <!--header-->
+    
+    <header>
+        <h1 id="nocoes">Noções Básicas de HTML</h1>
+        <nav>
+            <button class="button header-button"><a href="#inicio">O início dos computadores</a></button>
+            <button class="button header-button"><a href="#side">Client Side x Server Side</a></button>
+            <button class="button header-button"><a href="#html">O que é HTML</a></button>
+            <button class="button header-button"><a href="#tags">Tags</a></button> 
+        </nav>
+    </header>
+
+    <!--main-->
+
+    <main>
+        <section>
+            <h2 id="inicio">O início dos computadores</h2>
+            <p>Os computadores foram <strong>inicialmente criados para fazer cálculo.</strong> O primeiro computador da história foi o <a href="https://pt.wikipedia.org/wiki/ENIAC" target="_blank">ENIAC.</a> O <i>ENIAC</i> começou a ser desenvolvido em 1943, mas só entrou em funcionamento em 1946, após a segunda guerra mundial. Este computador era usado para <u>cálculos balísticos</u>, tendo uma alta velocidade de cálculos para a época.</p>
+            <button class="button main-button"><a href="#nocoes">Voltar ao início</a></button>
+        </section>
+        <section>
+            <h2 id="side">Client Side x Server Side</h2> 
+            <p>Basicamente explicando, existem 2 lados na programação: <strong>Client Side (FrontEnd)</strong> e <strong>Server Side (BackEnd).</strong><i> Client Side</i> é o lado do requisitor, ou seja, o dispositivo que está "pedindo" algo para o servidor. Já o Server Side é o "garçom", que serve o Client na medida do que foi requisitado. Existem linguagens de programação que atuam em cada lado. No Client Side existe <strong><i>HTML, CSS</i></strong> e <strong><i>JavaScript.</i></strong> Já no lado Server Side existem inúmeras outras, mas uma delas se destaca por atuar nos dois lados: o <u>JavaScript</u>. No Server Side o JavaScript necessita de uma ferramenta chamada <a href="https://nodejs.org/en" target="_blank">Node.js</a>, que atua juntamente com a engine <a href="https://v8.dev/" target="_blank">V8</a> dos navegadores.</p>
+            <button class="button main-button"><a href="#nocoes">Voltar ao início</a></button>
+        </section>
+        <section>  
+            <h2 id="html">O que é HTML</h2> 
+            <p><strong>HTML</strong> significa <i>Hyper Text Markup Language</i>, ou seja, linguagem de marcação hiper texto. Essa ferramenta <strong><i>não é uma linguagem de programação.</i></strong> Podemos dizer que o HTML é o esqueleto do site, toda estrutura está nele. É necessário o uso de navegadores para "ler" o HTML. É também necessário seguir alguns padrões pré estabelecidos, estes padrões podem ser encontrados no site da <a href="https://w3c.br/Home/WebHome/" target="_blank">W3C</a>, juntamente com as <a href="#tags">tags</a>, assunto do próximo tópico.</p> 
+            <button class="button main-button"><a href="#nocoes">Voltar ao início</a></button>
+        </section>
+        <section> 
+            <h2 id="tags">Tags</h2>
+            <p>As tags são usadas para estruturar o <i>HTML.</i> Os navegadores interpretam as tags de maneira que nos mostrem visualmente o que elas significam.<strong> Existem muitas tags no HTML</strong>, alguns exemplos são as tags de texto:</p>
+            <ul>
+                <li>p: usada para parágrafos</li>
+                <li>h1 ao h6: usada para títulos e subtítulos</li>
+                <li>strong: usada para deixar um texto ou palavra em negrito</li>
+                <li>i: usada para deixar um texto ou palavra em itálico</li>
+            </ul>
+            <p>Essas são apenas algumas das inúmeras tags do nosso tão importante e amado HTML.</p>
+            <button class="button main-button"><a href="#nocoes">Voltar ao início</a></button>
+        </section>
+    </main>
+
+    <!--footer-->
+    
+    <footer>
+    <h2>Referências</h2>
+        <ul>
+            <li><a href="https://www.wikipedia.org/" target="_blank">WIKIPEDIA</a></li>
+            <li><a href="https://nodejs.org/en" target="_blank">Node.js</a></li>
+            <li><a href="https://v8.dev/" target="_blank">V8 Engine</a></li>
+            <li><a href="https://w3c.br/Home/WebHome/" target="_blank">W3C</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
