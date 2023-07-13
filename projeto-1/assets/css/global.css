@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 'Ysabeau Office', sans-serif;
+    text-align: center;
+    font-size: 1.39rem;
+    width: 65%;
+    margin: auto;
+}
+
+h2 {
+    font-family: 'Belanosima', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin: 50px auto 20px;
+    border-style: dotted;
+    width: 25%;
+    font-size: 1.7rem;
+}
+
+body {
+    background: rgb(0,109,143);
+    background: linear-gradient(270deg, rgba(0,109,143,1) 0%, rgba(77,249,255,1) 100%);
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+li {
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    background: none;
+    padding: 5px 7px;
+    border-radius: 10px;
+    background-color: rgba(187, 139, 231, 0.425);
+    margin: 25px auto 0;
+    transition: background-color .5s, border-color .5s;
+}
+
+.button:hover {
+    background-color: rgb(247, 224, 228);
+    border-color: deeppink;
+    transition: background-color .5s, border-color .5s;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
